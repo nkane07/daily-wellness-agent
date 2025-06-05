@@ -1,5 +1,10 @@
 # 🌿 Daily Wellness Agent
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b.svg)](https://streamlit.io/)
+[![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-00a67e.svg)](https://openai.com)
+
 A minimalist, AI-powered self-care companion that gently supports your well-being each day. ✨
 Tell the app how you're feeling, and it will respond with a daily goal, a motivational quote, and a journaling or self-care prompt — all beautifully presented with calming animations.
 
