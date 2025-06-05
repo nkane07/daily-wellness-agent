@@ -1,0 +1,63 @@
+/* styles.css – Clean, Professional Spa Tech UI */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #f8fdfc, #e8f5e9);
+    color: #2e3b3a;
+}
+
+h1 {
+    text-align: center;
+    color: #2e7d66;
+    margin-bottom: 0.3em;
+}
+
+.stButton button {
+    background-color: #81c784;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6em 1.4em;
+    font-size: 16px;
+    transition: 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stButton button:hover {
+    background-color: #66bb6a;
+    color: white; /* <-- this fixes the red text */
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+.stTextInput > div > div > input {
+    background-color: #f0f9f8;
+    border: 1px solid #c8e6c9;
+    border-radius: 6px;
+    padding: 0.5em;
+    font-size: 16px;
+    color: #37474f;
+}
+
+div[data-testid="stMarkdownContainer"] p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #c8e6c9;
+    margin: 1.5em 0;
+}
+/* Animation for fade-in */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
