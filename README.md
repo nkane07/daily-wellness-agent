@@ -1,23 +1,25 @@
 # 🌿 Daily Wellness Agent
 
-A calm, minimalist AI-powered web app that offers daily self-care prompts based on your mood. Built using OpenAI and Streamlit.
+A minimalist, AI-powered self-care companion that gently supports your well-being each day. ✨
+Tell the app how you're feeling, and it will respond with a daily goal, a motivational quote, and a journaling or self-care prompt — all beautifully presented with calming animations.
 
 ## ✨ Features
 
 - Enter how you're feeling (e.g., anxious, tired, motivated)
-- Get a:
-  - ✅ One-line daily goal
-  - 💬 Motivational quote
-  - ✍️ Journaling or self-care suggestion
-- Designed with spa-inspired UI and gentle fade-in animations
+- Get:
+🧠 Mood-Based Guidance – Get responses tailored to how you feel (e.g., anxious, tired, motivated)
+✅ One-Line Daily Goal – A simple task to focus your day
+💬 Motivational Quote – A gentle nudge to lift your mindset
+✍️ Journaling Prompt or Self-Care Suggestion – Encourage mindful reflection
+🎨 Spa-Inspired UI – Soft transitions, clean layout, and peaceful design
 
 ## 🛠 Built With
 
-- Python
-- Streamlit
-- OpenAI GPT-3.5
-- dotenv (for API key security)
-- Custom CSS
+-Python
+-Streamlit – for building and hosting the web interface
+-OpenAI GPT-3.5 – for generating thoughtful, natural responses
+-dotenv – for secure API key management
+-Custom CSS – for animations and styling
 
 ## 💻 How to Run It Locally
 
@@ -30,3 +32,4 @@ streamlit run app.py
 
 ## 🙋‍♀️ Created By
 Niamh Kane
+MSc Software Development student passionate about wellbeing, creativity, and building tech for good.
